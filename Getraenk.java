@@ -9,11 +9,11 @@ public class Getraenk extends Lebensmittel { // Klasse kann man eigentlich weg l
 
     @Override
     public boolean essen() {
-        return true;
+        return false;
     }
 
     @Override
     public boolean trinken() {
-        return false;
+        return true;
     }
 }
